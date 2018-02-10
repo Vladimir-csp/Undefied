@@ -9,9 +9,11 @@ It would consist of two components:
 
 ![](https://github.com/Vladimir-csp/Undefied/blob/master/Undefied_concept.png)
 
+## Entry editor
 Entry editor would be generic-purpose. Important known fields might have some hints and helpers, all known fields would be listed for choosing from when adding, custom fields could be added manually.
 CLI arguments could be used to open editor with pre-filled fields (this would make possible to make entries based on pre-existing data, like placing a link entry to some file/directory on the desktop)
 
+## Structure editor
 XDG structure editor would provide the ability to display entries of applications, autostart applications and desktop directories. and allow to:
 - Edit entry (in most common case copy system level entry to user level and edit it in the editor)
   - Have some simple actions like hiding exposed right away without entry editor
